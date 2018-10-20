@@ -78,7 +78,7 @@ app.post('/', function (req, res) {
         }).catch(function (error) {
             // handle exceptions
             console.log(error);
-        })
+        });
     });
 
 });
